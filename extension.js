@@ -499,7 +499,7 @@ class MprisLabel extends PanelMenu.Button {
 			this.icon = null;
 		}
 
-		if(!ICON_PLACE || !this.player || this.label.get_text() == "" || this.label.get_text() == PLACEHOLDER)
+		if(!ICON_PLACE || !this.player || this.label.get_text() == PLACEHOLDER)
 			return
 
 		if(USE_ALBUM){
